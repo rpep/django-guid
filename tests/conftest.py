@@ -2,6 +2,7 @@ import uuid
 
 import pytest
 
+print("Hello, world") 
 
 @pytest.fixture
 def mock_uuid(monkeypatch):
